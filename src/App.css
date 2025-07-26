@@ -1,0 +1,27 @@
+#Leads table tr td {
+  width: 100px !important;
+}
+/* src/index.css ya App.css mein daal de */
+
+::-webkit-scrollbar {
+  width: 6px; /* thin */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* transparent bg */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3); /* white, light transparent */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
