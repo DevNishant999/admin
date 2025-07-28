@@ -1,7 +1,6 @@
 import React, { Suspense } from "react";
 import "../src/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import ProtectedRoute from "./components/ProtectedRoute";
 import Layout from "./components/Layout";
 import Users from "./pages/Users";
